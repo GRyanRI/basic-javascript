@@ -3,7 +3,7 @@ const greeting = 'Howdy'
 const name = 'Alyssa'
 const message = ', please check your order:'
 // Concatenate the 3 variable above to create the welcome message
-const welcome = greeting + name + message
+const welcome = `${greeting} ${name} ${message}`
 
 // Create variables to hold details about the sign
 const sign = 'Montague House'
